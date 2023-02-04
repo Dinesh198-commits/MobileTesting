@@ -2,25 +2,49 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-29T13:28:21 IST" name="Default suite" finished-at="2023-01-29T13:30:16 IST" duration-ms="115542">
+  <suite started-at="2023-02-04T10:13:08 IST" name="Default suite" finished-at="2023-02-04T10:13:40 IST" duration-ms="31628">
     <groups>
     </groups>
-    <test started-at="2023-01-29T13:28:21 IST" name="Default test" finished-at="2023-01-29T13:30:16 IST" duration-ms="115542">
-      <class name="com.simplelearn.AppiumDemo.ContextSwitchingDemo">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.simplelearn.AppiumDemo.ContextSwitchingDemo@79924b]" started-at="2023-01-29T13:28:21 IST" name="launchApplication" finished-at="2023-01-29T13:29:02 IST" duration-ms="40983" status="PASS">
+    <test started-at="2023-02-04T10:13:08 IST" name="Default test" finished-at="2023-02-04T10:13:40 IST" duration-ms="31628">
+      <class name="com.simplelearn.AppiumDemo.ZoomInOutDemo">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.simplelearn.AppiumDemo.ZoomInOutDemo@79924b]" started-at="2023-02-04T10:13:08 IST" name="launchApplication" finished-at="2023-02-04T10:13:31 IST" duration-ms="22213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="addShortcutHomeScreen()[pri:0, instance:com.simplelearn.AppiumDemo.ContextSwitchingDemo@79924b]" started-at="2023-01-29T13:29:02 IST" name="addShortcutHomeScreen" finished-at="2023-01-29T13:30:16 IST" duration-ms="74420" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="ZoomOutDemo()[pri:0, instance:com.simplelearn.AppiumDemo.ZoomInOutDemo@79924b]" started-at="2023-02-04T10:13:31 IST" name="ZoomOutDemo" finished-at="2023-02-04T10:13:40 IST" duration-ms="9019" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.RelativeLayout[@content-desc= 'eBay']/android.widget.ImageView (tried for 60 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Cannot read property 'action' of undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5B2A0L0', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.maps.Map..., appPackage: com.google.android.apps.maps, databaseEnabled: false, desired: {appActivity: com.google.android.maps.Map..., appPackage: com.google.android.apps.maps, deviceName: LVRWJNQWNJUOWS55, noReset: true, plateformName: ANDROID, platformName: android}, deviceApiLevel: 27, deviceManufacturer: vivo, deviceModel: vivo 1803, deviceName: LVRWJNQWNJUOWS55, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: LVRWJNQWNJUOWS55, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2, plateformName: ANDROID, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 64, takesScreenshot: true, viewportRect: {height: 1372, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: bfc90233-06c2-49d8-a5a0-0a772bcf9381]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.RelativeLayout[@content-desc= 'eBay']/android.widget.ImageView (tried for 60 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.simplelearn.AppiumDemo.ContextSwitchingDemo.addShortcutHomeScreen(ContextSwitchingDemo.java:53)
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot read property 'action' of undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5B2A0L0', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.maps.Map..., appPackage: com.google.android.apps.maps, databaseEnabled: false, desired: {appActivity: com.google.android.maps.Map..., appPackage: com.google.android.apps.maps, deviceName: LVRWJNQWNJUOWS55, noReset: true, plateformName: ANDROID, platformName: android}, deviceApiLevel: 27, deviceManufacturer: vivo, deviceModel: vivo 1803, deviceName: LVRWJNQWNJUOWS55, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: LVRWJNQWNJUOWS55, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2, plateformName: ANDROID, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 64, takesScreenshot: true, viewportRect: {height: 1372, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: bfc90233-06c2-49d8-a5a0-0a772bcf9381
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at io.appium.java_client.PerformsTouchActions.performMultiTouchAction(PerformsTouchActions.java:58)
+at io.appium.java_client.MultiTouchAction.perform(MultiTouchAction.java:74)
+at com.simplelearn.AppiumDemo.ZoomInOutDemo.ZoomOutDemo(ZoomInOutDemo.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -49,53 +73,13 @@ at org.testng.TestNG.run(TestNG.java:1067)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5B2A0L0', ip: '192.168.142.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: LVRWJNQWNJUOWS55, ignoreHiddenApiPolicyError: true, noReset: true, plateformName: ANDROID, platformName: android}, deviceApiLevel: 27, deviceManufacturer: vivo, deviceModel: vivo 1803, deviceName: LVRWJNQWNJUOWS55, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: LVRWJNQWNJUOWS55, ignoreHiddenApiPolicyError: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2, plateformName: ANDROID, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 64, takesScreenshot: true, viewportRect: {height: 1372, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: 0006353e-5f1e-4872-b23b-993379aedbde
-*** Element info: {Using=xpath, value=//android.widget.RelativeLayout[@content-desc= 'eBay']/android.widget.ImageView}
-at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 29 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addShortcutHomeScreen -->
-      </class> <!-- com.simplelearn.AppiumDemo.ContextSwitchingDemo -->
+        </test-method> <!-- ZoomOutDemo -->
+      </class> <!-- com.simplelearn.AppiumDemo.ZoomInOutDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.simplelearn.AppiumDemo.ContextSwitchingDemo">
+      <class name="com.simplelearn.AppiumDemo.ZoomInOutDemo">
         <methods>
           <include name="launchApplication"/>
-          <include name="addShortcutHomeScreen"/>
+          <include name="ZoomOutDemo"/>
         </methods>
-      </class> <!-- com.simplelearn.AppiumDemo.ContextSwitchingDemo -->
+      </class> <!-- com.simplelearn.AppiumDemo.ZoomInOutDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
